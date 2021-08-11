@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <h1>Notes App</h1>
-      <a href="https://tm.is">tm.is</a>
+      <a href={process.env.REACT_APP_TM_WEB_URL}>tm.is</a>
     </div>
   );
 }
